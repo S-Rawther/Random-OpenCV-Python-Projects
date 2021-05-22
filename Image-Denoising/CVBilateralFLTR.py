@@ -10,6 +10,10 @@ image = cv2.imread('image1.png')
 image_resize = cv2.resize(image, (500, 500))
 
 # Applying Bilateral Filter with Diameter as 15, Sigmacolor and Sigmaspace 75
+# 15 is the Diameter of each surrounding pixel 
+# 75 is the Sigmacolor value which mixes the colors farther from the surrounding pixel which gives an almost equal color
+# 75 is the Sigmaspace value which mixes the pixels as long as their colors are close enough
+# Changing diameter, sigmacolor, sigmaspace changes the intensity of the filter on the picture
 bilatfltr = cv2.bilateralFilter(image_resize, 15, 75, 75)
 
 # Here, we use Numpy to display the before and after image side by side by using hstack
