@@ -4,6 +4,7 @@ import cv2
 # Using Tesseract as pt for ease of use and Importing Tesseract to the code
 pt.pytesseract.tesseract_cmd = "tesseract.exe"
 
+# Be sure to put the entire location of the image into imread function or put the image in the same directory and just type the image name with it format
 image = cv2.imread('img.jpg')
 
 # Setting height and Width of the Characters
