@@ -8,6 +8,7 @@ resize = cv2.resize(image, (500, 500))
 
 # Creating a Sharpening Kernel Filter for Sharpening Function
 # Changing the array value will change the sharpening intensity
+# The Kernel value must be equal to 1
 sharp_kernel = np.array([[-1, -1, -1],
                          [-1, 9, -1],
                          [-1, -1, -1]])
