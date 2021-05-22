@@ -3,7 +3,7 @@ import numpy as np
 
 # Reads Image from File
 picture = cv2.imread('img1.png')
-# Resizing Image for Viewing purpose
+# Resizing Image
 resize_pic = cv2.resize(picture, (400, 400), interpolation=cv2.INTER_AREA)
 
 # Taking the Mean of the Matrix
