@@ -15,3 +15,6 @@ The median filter analyses each pixel in the image separately and compares it to
 
 ## Image Sharpening ##
 Image Sharpening is a technique in which an image is enhanced that helps bring out fine details and edges. The sharpening depends on the value of the kernel. This allows to change kernel values to increase or decrease the sharpening density of the image.
+
+## Note ##
+Try changing the numerical values for each of these codes to see the difference in the intensity of the applied filter on an image.
