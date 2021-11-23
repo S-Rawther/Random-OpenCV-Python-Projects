@@ -2,6 +2,7 @@ import pytesseract as pt
 import cv2
 
 # Using Tesseract as pt for ease of use and Importing Tesseract to the code
+# You must include the entire file location where tesseract is found, which is usually in program files.
 pt.pytesseract.tesseract_cmd = "tesseract.exe"
 
 # Be sure to put the entire location of the image into imread function or put the image in the same directory and just type the image name along with its format
